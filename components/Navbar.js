@@ -28,6 +28,9 @@ const Navbar = () => {
                         <li>
                             <Link href="/building" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Building station</Link>
                         </li>
+                        <li>
+                            <Link href="/building" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">a</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>
