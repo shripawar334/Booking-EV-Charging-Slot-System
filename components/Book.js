@@ -60,7 +60,7 @@ export default function StationsList() {
       </div>
 
       {/* Stations List */}
-      <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {filteredStations.map((station) => (
           <div
             key={station.id}

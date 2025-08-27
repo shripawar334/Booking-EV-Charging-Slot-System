@@ -1,6 +1,9 @@
+"use client"
 import React from 'react'
+import { useRouter } from 'next/navigation'
 
 const page = () => {
+  const router = useRouter();
   return (
     <div>
        <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6">
@@ -40,7 +43,7 @@ const page = () => {
           <button className="flex-1 bg-gradient-to-r from-green-400 to-green-600 hover:from-green-500 hover:to-green-700 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-300">
             Confirm Booking
           </button>
-          <button className="flex-1 border border-white/30 hover:bg-white/10 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-300">
+          <button onClick={()=>router.push("/book")} className="flex-1 border border-white/30 hover:bg-white/10 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-300">
             Go Back
           </button>
         </div>
