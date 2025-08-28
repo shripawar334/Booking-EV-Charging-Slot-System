@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white flex items-center justify-center px-6 py-12">
-      <div className="max-w-5xl w-full grid md:grid-cols-2 gap-12">
+    <div className="min-h-screen  bg-gradient-to-b from-gray-900 to-black text-white flex items-center justify-center px-6 py-12">
+      <div className="max-w-5xl mt-10 w-full grid md:grid-cols-2 gap-12">
         
         {/* Left Side - Contact Info */}
         <motion.div

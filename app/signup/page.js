@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Signup() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white flex items-center justify-center px-6 py-12">
-      <div className="max-w-md w-full">
+      <div className="max-w-md mt-10 w-full">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}

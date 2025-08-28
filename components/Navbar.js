@@ -5,9 +5,9 @@ import Link from 'next/link';
 const Navbar = () => {
     return (
 
-        <nav className="flex text-white items-center justify-between p-4 bg-gray-900">
-            <div className=' '>Ev App</div>
-            <ul className="flex space-x-6">
+        <nav className="flex text-white items-center fixed  justify-between p-4 w-full bg-gray-900">
+            <div className='font-bold text-xl '>EV App</div>
+            <ul className="flex space-x-6 text-lg">
                 <li><Link href="/" className="hover:text-blue-500">Home</Link></li>
                 <li><Link href="/about" className="hover:text-blue-500">About</Link></li>
                 <li><Link href="/contact" className="hover:text-blue-500">Contact</Link></li>
@@ -23,14 +23,12 @@ const Navbar = () => {
                             <Link href="/customer" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Customer</Link>
                         </li>
                         <li>
-                            <Link href="/highway" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Highway station</Link>
+                            <Link href="/dashboad" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Highway station</Link>
                         </li>
                         <li>
                             <Link href="/building" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Building station</Link>
                         </li>
-                        <li>
-                            <Link href="/building" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">a</Link>
-                        </li>
+                       
                     </ul>
                 </li>
             </ul>

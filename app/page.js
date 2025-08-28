@@ -84,9 +84,9 @@ export default function Home() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
-              src="/images/ev-charging.jpg"
+              src="/ev.gif"
               alt="EV Charging"
-              className="rounded-xl shadow-lg"
+              className="rounded-xl shadow-lg w-40 ml-10"
             />
             <div>
               <p className="text-lg mb-6 text-gray-300">
